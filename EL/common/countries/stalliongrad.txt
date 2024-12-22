@@ -1,0 +1,10 @@
+country_leader = {
+    name = Egor Letov
+	desc = frisky
+	picture = gfx/leaders/STG/Egor_Letov.dds
+	expire = 1964.9.10
+	ideology = national_communism
+	traits = {
+	    military_youth
+	}
+}
