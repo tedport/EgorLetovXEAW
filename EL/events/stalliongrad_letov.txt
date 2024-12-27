@@ -1,0 +1,61 @@
+add_namespace = stalliongrad
+country_event = {
+    id = stalliongrad.154
+	title = stalliongrad.154.t
+	desc = stalliongrad.154.d
+	is_triggered_only = yes
+	trigger = {
+		tag = STG
+	}
+	immediate = {log = "[GetDateText]: [Root.GetName]: event stalliongrad.154"}
+	option = {
+	    name = stalliongrad.154.a
+		country_event = { id = stalliongrad.155 }
+	}
+}
+country_event = {
+    id = stalliongrad.155
+	title = stalliongrad.155.t
+	desc = stalliongrad.155.d
+	is_triggered_only = yes
+	option = { 
+		name = stalliongrad.155.a
+		country_event = { id =
+	    stalliongrad.156 }
+	}
+		option = {
+		    name = stalliongrad.155.b
+###		    country_event = { id = stalliongrad.156.1 }
+	    }
+	}
+country_event = {
+    id = stalliongrad.156
+	title = stalliongrad.156.t
+	desc = stalliongrad.156.d 
+	is_triggered_only = yes
+	option = {
+	name = stalliongrad.156.a 
+	country_event = { id =stalliongrad.157 }
+	}
+}
+country_event = {
+    id = stalliongrad.157
+	title = stalliongrad.157.t 
+	desc = stalliongrad.157.d 
+	is_triggered_only = yes
+	trigger = { 
+		has_government = communism
+	}
+	option = {
+	    name = stalliongrad.157.a
+		
+		set_politics = {
+			# FIXME: Данная строчка вызывает краш. Предполагаю из-за того что у Сталлионграда нет НК партии
+			ruling_party = national_communism
+		}
+		promote_character = STG_egor_letov
+	}
+}
+			
+		
+	

@@ -1,0 +1,11 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            STG = {
+                country_event = {
+                    id = stalliongrad.154 days = 50
+                }
+            }
+        }
+    }
+}
