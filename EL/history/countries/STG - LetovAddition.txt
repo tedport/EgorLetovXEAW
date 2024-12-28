@@ -1,0 +1,2 @@
+recruit_character = STG_egor_letov
+

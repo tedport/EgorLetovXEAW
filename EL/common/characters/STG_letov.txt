@@ -1,18 +1,10 @@
 characters = {
-    STG_egor_letov = {
+        STG_egor_letov = {
         name = STG_egor_letov
         portraits={
             civilian={
                 large = "gfx/leaders/STG/Egor_Letov.tga"
             }
         }
-    }
-    country_leader={
-        ideology = national_communism
-        ### Ted: Честно, я хз почему вы делали как делали, но в целом ПО-ПО-ПО-Х!!
-        desc = "FRISKY_POLITICS_LETOV"
-        expire="1965.1.1.1.1"
-        id=-1
-        traits = { military_youth }
     }
 }

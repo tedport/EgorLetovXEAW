@@ -48,12 +48,22 @@ country_event = {
 	}
 	option = {
 	    name = stalliongrad.157.a
-		
-		set_politics = {
-			# FIXME: Данная строчка вызывает краш. Предполагаю из-за того что у Сталлионграда нет НК партии
-			ruling_party = national_communism
+		add_country_leader_role = {
+			character = STG_egor_letov
+			promote_leader = yes
+			country_leader={
+				ideology = leninism
+				### Ted: Честно, я хз почему вы делали как делали, но в целом ПО-ПО-ПО-Х!!
+				desc = "FRISKY_POLITICS_LETOV"
+				expire="1965.1.1.1.1"
+				id=-1
+				traits = { military_youth }
+			}
 		}
-		promote_character = STG_egor_letov
+#		promote_character = {
+#			character = STG_egor_letov
+#			ideology = leninism
+#		}
 	}
 }
 			
