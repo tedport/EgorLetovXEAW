@@ -48,11 +48,14 @@ country_event = {
 	}
 	option = {
 	    name = stalliongrad.157.a
+		hidden_effect={
+				set_politics = {ruling_party = fascism}
+		}
 		add_country_leader_role = {
 			character = STG_egor_letov
 			promote_leader = yes
 			country_leader={
-				ideology = leninism
+				ideology = national_communism
 				### Ted: Честно, я хз почему вы делали как делали, но в целом ПО-ПО-ПО-Х!!
 				desc = "FRISKY_POLITICS_LETOV"
 				expire="1965.1.1.1.1"
@@ -60,10 +63,6 @@ country_event = {
 				traits = { military_youth }
 			}
 		}
-#		promote_character = {
-#			character = STG_egor_letov
-#			ideology = leninism
-#		}
 	}
 }
 			
