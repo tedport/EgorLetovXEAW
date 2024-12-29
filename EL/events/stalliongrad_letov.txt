@@ -18,6 +18,7 @@ country_event = {
 	title = stalliongrad.155.t
 	desc = stalliongrad.155.d
 	is_triggered_only = yes
+	mean_time_to_happen = { days = 7 }
 	option = { 
 		name = stalliongrad.155.a
 		country_event = { id =
@@ -33,6 +34,7 @@ country_event = {
 	title = stalliongrad.156.t
 	desc = stalliongrad.156.d 
 	is_triggered_only = yes
+	mean_time_to_happen = { days = 7 }
 	option = {
 	name = stalliongrad.156.a 
 	country_event = { id =stalliongrad.157 }
@@ -43,6 +45,7 @@ country_event = {
 	title = stalliongrad.157.t 
 	desc = stalliongrad.157.d 
 	is_triggered_only = yes
+	mean_time_to_happen = { days = 7 }
 	trigger = { 
 		has_government = communism
 	}
